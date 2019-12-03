@@ -1,7 +1,7 @@
 header{
   height: 75px;
   line-height: 75px;
-  white-space: nowrap;
+  /* white-space: nowrap; */
 }
 
 aside{
@@ -12,7 +12,7 @@ aside{
 section{
   height: 125px;
   line-height: 125px;
-  white-space: nowrap;
+  /* white-space: nowrap; */
 }
 
 article{
@@ -31,7 +31,7 @@ footer{
   height: 80px;
   line-height: 80px;
   clear: both;
-  white-space: nowrap;
+  /* white-space: nowrap; */
 }
 
 
