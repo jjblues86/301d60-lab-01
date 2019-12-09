@@ -1,3 +1,4 @@
+/* Mobile View */
 #a{
   background-color: aquamarine;
 }
@@ -34,7 +35,47 @@
   background-color: pink;
 }
 
+/* Tablet View */
 @media(min-width: 768px){
+  #a{
+    background-color: rgb(41, 51, 189);
+  }
+  
+  #b{
+    background-color: rgb(58, 228, 67);
+  }
+  
+  #c{
+    background-color: rgb(129, 24, 228);
+  }
+  
+  #d{
+    background-color: rgb(122, 42, 42);
+  }
+  
+  #e{
+    background-color: rgb(219, 58, 179);
+  }
+  
+  #f{
+    background-color: rgb(135, 180, 180);
+  }
+  
+  #g{
+    background-color: rgb(230, 97, 9);
+  }
+  
+  #h{
+    background-color: rgb(80, 125, 224);
+  }
+  
+  #i{
+    background-color: rgb(153, 201, 40);
+  }
+}
+
+/* Desktop View */
+@media(min-width: 960px){
   #a{
     background-color: rgb(167, 226, 29);
   }

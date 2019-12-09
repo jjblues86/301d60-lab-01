@@ -1,13 +1,30 @@
-header, aside, section, article, footer{
-  border: 1px solid black;
-  text-align: center;
-  max-width: 480px;
-  margin: 0 auto;
-  box-sizing: border-box;
+html{
+  height: 100%;
 }
 
-@media(min-width: 768px){
-  header, aside, section, article, footer{
+body{
+   margin: 0 auto;
+   max-width: 480px;
+   max-height: 767px;
+   height: 100%;
+   display: grid;
+   grid-template-columns: 50% 50%;
+   grid-template-rows: 75fr 150fr 125fr 125fr 250fr 250fr 80fr;
+}
+
+header, aside, section, div, footer {
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media(min-width: 768px) {
+  body{
     max-width: 960px;
+    max-height: 768px;
+    grid-template-columns: 200fr 190fr 190fr 190fr 190fr;
+    grid-template-rows: 100fr 200fr 250fr 150fr;
+
   }
 }
